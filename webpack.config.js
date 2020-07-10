@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
 	watch: true,
-	entry: './out/index.js',
+	entry: './lib/index.js',
 	target: 'web',
 	output: {
 		path: __dirname,
