@@ -1,0 +1,28 @@
+{
+  "name": "jquery-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fc-premium-core": "^0.0.1",
+    "jquery": "^3.4.1",
+    "mousetrap": "^1.6.5",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/fc-premium/jquery-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/fc-premium/jquery-lib/issues"
+  },
+  "homepage": "https://gitlab.com/fc-premium/jquery-lib#readme"
+}
