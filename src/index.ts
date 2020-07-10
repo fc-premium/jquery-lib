@@ -13,7 +13,6 @@ export const lib = new Core.Module({
 });
 
 lib.onload = function() {
-	console.log(Core)
 	Core.libraries.declare('jquery', $);
 	Core.libraries.declare('mousetrap', mousetrap);
 }
