@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "fc-premium-core": "^0.0.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "mousetrap": "^1.6.5",
     "terser-webpack-plugin": "^2.3.5",
     "webpack": "^4.42.1"
