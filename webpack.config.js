@@ -9,39 +9,28 @@ module.exports = {
 		path: __dirname,
 		filename: './index.js',
 		libraryTarget: 'assign',
-		library: 'module.exports',
-		// libraryExport: '',
-		// module: true
-		// library: '__module__'
+		library: 'module.exports'
 	},
 
 	mode: 'production',
 
 	optimization: {
-		minimize: false,
+		minimize: true,
 		minimizer: [
 			new TerserPlugin({
+				extractComments: false,
 				terserOptions: {
 					compress: {
-						// module: true,
 						ecma: 2017,
 						negate_iife: false,
 						unsafe: true,
 						unsafe_arrows: true,
 						arrows: true,
-
-						//
-						// top_retain: true,
-
-						// temp
-						// sequences: false
 					},
 
 					output: {
 						ecma: 2017,
-						// beautify: true,
-						// wrap_iife: true,
-						// indent_level: 8
+						comments: false
 					}
 				}
 			})
