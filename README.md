@@ -1,3 +1,3 @@
 # jquery-lib
 
-jQuery library for fc-premium
+jQuery v3.5.1 library for fc-premium
