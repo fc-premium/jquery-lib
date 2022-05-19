@@ -12,9 +12,9 @@ export const lib = new Core.Module({
 	"matches": ["*"]
 });
 
-lib.onload = function() {
+lib.addEventListener('load', function() {
 	Core.libraries.declare('jquery', $);
 	Core.libraries.declare('mousetrap', mousetrap);
-}
+});
 
 export { lib as module };
